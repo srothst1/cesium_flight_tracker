@@ -1,6 +1,6 @@
 # Cesium Flight Tracker
 
-To run the demo, use commands `npm install`, `npm run` followed by `npm start`
+To run the demo, clone this repository and then use commands `npm install`, `npm run` followed by `npm start`
 
 My demo uses an aircraft model that can be found here:
 https://www.cgtrader.com/items/662998/download-page
