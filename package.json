@@ -1,0 +1,22 @@
+{
+    "name": "cesium-template",
+    "version": "0.0.1",
+    "description": "A simple Cesium template.",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js"
+    },
+    "dependencies": {
+      "express": "^4.16.4"
+    },
+    "engines": {
+      "node": "8.x"
+    },
+    "license": "MIT",
+    "keywords": [
+      "cesium",
+      "glitch",
+      "express"
+    ]
+  }
+  
