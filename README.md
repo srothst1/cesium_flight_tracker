@@ -9,3 +9,6 @@ Here are some images:
 ![flight_tracker_1](https://user-images.githubusercontent.com/39531367/121040358-b019bb00-c766-11eb-91cd-9f69171a7d28.gif)
 
 ![flight_tracker_3](https://user-images.githubusercontent.com/39531367/121040505-cde72000-c766-11eb-9e4c-58ab0d4d61ed.png)
+
+Here is the guide from Cesium
+https://cesium.com/docs/tutorials/build-a-flight-tracker/
