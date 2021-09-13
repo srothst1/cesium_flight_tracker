@@ -25,8 +25,8 @@ Here are some images:
 Here is the guide from Cesium
 https://cesium.com/docs/tutorials/build-a-flight-tracker/
 
-`CloudCollection` as recently added to the CesiumJS API. I would love to enhance this demo by adding clouds.
+`CloudCollection` was recently added to the CesiumJS API. I would love to enhance this demo by adding clouds.
 
 https://cesium.com/learn/cesiumjs/ref-doc/CloudCollection.html?classFilter=cloud
 
-If you are seeing this and feel particularly ambitions, please submit a pull request ;) 
+If you are seeing this and feel particularly ambitions, please submit a pull request ;)
