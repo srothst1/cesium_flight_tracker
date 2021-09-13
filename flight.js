@@ -1,6 +1,5 @@
-
     // Get your token from https://cesium.com/ion/tokens
-    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJmMTE4OTBkZi03Zjk4LTRjYmQtODk0MC1hNmQ0NTZiMTNjN2YiLCJpZCI6NTc3MzMsImlhdCI6MTYyMjU2NzkwNn0.XzpKx-KrkoFvL7JMHn4qfLtb3bq39mQlKRsTvRcWxCs';
+    Cesium.Ion.defaultAccessToken = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJqdGkiOiJlYWE1OWUxNy1mMWZiLTQzYjYtYTQ0OS1kMWFjYmFkNjc5YzciLCJpZCI6NTc3MzMsImlhdCI6MTYyNzg0NTE4Mn0.XcKpgANiY19MC4bdFUXMVEBToBmqS8kuYpUlxJHYZxk';
 
     const viewer = new Cesium.Viewer('cesiumContainer', {
         terrainProvider: Cesium.createWorldTerrain()
@@ -54,10 +53,10 @@
     // Attach the 3D model instead of the green point.
     model: { uri: airplaneUri },
     // Automatically compute the orientation from the position.
-    orientation: new Cesium.VelocityOrientationProperty(positionProperty),    
+    orientation: new Cesium.VelocityOrientationProperty(positionProperty),
     path: new Cesium.PathGraphics({ width: 3 })
     });
-  
+
     viewer.trackedEntity = airplaneEntity;
     }
 
