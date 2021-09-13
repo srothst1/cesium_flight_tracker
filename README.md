@@ -1,6 +1,7 @@
 # Cesium Flight Tracker
 
-To run the demo,
+To run the demo:
+
 1. Clone and open this repository.
 2. Install NPM using `npm install`
 3. Install Cesium using `npm install cesium`
@@ -10,7 +11,9 @@ To run the demo,
 My demo uses an aircraft model that can be found here:
 https://www.cgtrader.com/items/662998/download-page
 
-Feel free to use your own model :grinning: To update the aircraft model, upload the new model to Cesium ion and edit this line of code in `flight.js`:
+Feel free to use your own model :grinning:
+
+To update the aircraft model, upload the new model to Cesium ion and edit this line of code in `flight.js`:
 
 `const airplaneUri = await Cesium.IonResource.fromAssetId(YOUR_ASSET_ID_HERE);`
 
@@ -21,3 +24,9 @@ Here are some images:
 
 Here is the guide from Cesium
 https://cesium.com/docs/tutorials/build-a-flight-tracker/
+
+`CloudCollection` as recently added to the CesiumJS API. I would love to enhance this demo by adding clouds.
+
+https://cesium.com/learn/cesiumjs/ref-doc/CloudCollection.html?classFilter=cloud
+
+If you are seeing this and feel particularly ambitions, please submit a pull request ;) 
